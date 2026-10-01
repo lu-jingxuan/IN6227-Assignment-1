@@ -29,9 +29,9 @@ pip install -r requirements.txt
 ```
 ```text
 IN6227-Assignment-1/
-├── IN6227_Assignment1.ipynb
+├── IN6227_Assignment1_Code.ipynb
 ├── README.md
 ├── results.json
 ├── requirements.txt
 ├── figures/
-└── report/
+└── dataset/
