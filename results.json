@@ -1,0 +1,51 @@
+{
+    "DecisionTree": {
+        "best_params": {
+            "classifier__max_depth": 10
+        },
+        "best_cv_f1": 0.595,
+        "test": {
+            "accuracy": 0.825,
+            "precision": 0.643,
+            "recall": 0.597,
+            "f1": 0.619,
+            "roc_auc": 0.851,
+            "average_precision": 0.601
+        },
+        "confusion_matrix": [
+            [
+                9113,
+                1052
+            ],
+            [
+                1277,
+                1891
+            ]
+        ]
+    },
+    "RandomForest": {
+        "best_params": {
+            "classifier__max_depth": 15,
+            "classifier__n_estimators": 300
+        },
+        "best_cv_f1": 0.626,
+        "test": {
+            "accuracy": 0.839,
+            "precision": 0.707,
+            "recall": 0.548,
+            "f1": 0.617,
+            "roc_auc": 0.89,
+            "average_precision": 0.708
+        },
+        "confusion_matrix": [
+            [
+                9445,
+                720
+            ],
+            [
+                1432,
+                1736
+            ]
+        ]
+    }
+}
