@@ -27,6 +27,8 @@ Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Structure
 ```text
 IN6227-Assignment-1/
 ├── IN6227_Assignment1_Code.ipynb
